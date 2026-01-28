@@ -46,9 +46,7 @@ Raw price and factor files are referenced but not included in this repository.
 
 ### 2. Baseline CAPM Estimation
 For each stock:
-\[
-R_{j,t} - R_{f,t} = \alpha_j + \beta_j (R_{m,t} - R_{f,t}) + \varepsilon_{j,t}
-\]
+$$R_{j,t} - R_{f,t} = \alpha_j + \beta_j (R_{m,t} - R_{f,t}) + \varepsilon_{j,t}$$
 
 Estimated full-sample CAPM betas using time-series regression.
 
